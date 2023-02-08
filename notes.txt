@@ -1,0 +1,11 @@
+1) React is a library
+- cdn is a faster way of fetching code
+- injection of react happened via cdn
+- access to react DOM happens via cdn
+- production ready code 
+    - minify our file
+    - optimisation needs to be done
+    -we have to make use of bundler
+        - job of bundlers
+    - we will make use of parcel, we have other bundlers webpack and vite as well
+    - package

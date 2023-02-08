@@ -14,6 +14,19 @@
         },
         "React Heading 2"
       );
-      
+
+      const container = React.createElement(
+        "div",
+        {
+          id:"container", //  props, which can be anything,
+          hello :"world"
+        },
+        [heading1,heading2]
+      )
+      // webpack is one of the bundlers - production ready app
+      //vite , parcel all are bundlers
+      //we will make use of parcel
+      //create-react app uses webpack
+
       const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render([heading1,heading2])
+      root.render(container)
